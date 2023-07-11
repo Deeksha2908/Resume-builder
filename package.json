@@ -1,0 +1,19 @@
+{
+  "name": "resume-builder",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "cd api && nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"npm server\" \"npm client\""
+  },
+  "devDependencies": {
+    "concurrently": "^4.0.1"
+  },
+  "author": "Deeksha Sinha",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "js-file-download": "^0.4.12"
+  }
+}

@@ -1,0 +1,14 @@
+.main-final-box{
+    padding: 10px 25px;
+   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.container-final{
+    margin-left: 350px;
+    margin-right: 350px;
+}
+.title-final{
+ text-align: center;
+ font-size: 25px;
+ font-style: italic;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
